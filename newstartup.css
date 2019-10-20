@@ -1,0 +1,65 @@
+
+body,
+html {
+  width: 100%;
+  /*ek baar 50% kar ke dekh,page 1/4 of the website */
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  /*The max-width property in CSS is used to set the maximum width of a specified element. The max-width property overrides the width property, but min-width will always override max-width whether followed before or after width in your declaration.*/
+  border-width: 5px;
+  /*To */
+  border-color: #F05F44;
+  /**/
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); /*IDK what happened here?*/
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("D:/UDemy/BoHtml/KiitE/newweb/laptop.jpeg");
+  /*Photo by Akash Rajendra on Unsplash*/
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;/*same as below*/
+  margin-bottom: 30px; /*to set the distance of hr b/w 'The biggest..year'*/
+  /*and the button Find Out More*/
+}
+
+header.startup h1 {
+  font-size: 2rem; /*to set font sixe of the biggest..of the year w.r.t the the size of the html element*/
+}
+
+.btn {
+  font-weight: 800; /*intetnsity/kitna mota and ubhar ke aata hai find out more ka text*/
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;/*To set how much space around Find Out More button even when note hovering over it*/ 
+}
+
+.btn-primary {
+  background-color: #F05F44; /*overwrites blue color of primary to this hex color*/
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  /*above one to set how much width around Find Out more when we hover over it*/
+  cursor: pointer;
+}
